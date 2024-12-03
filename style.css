@@ -1,0 +1,101 @@
+.sawarabi-mincho-regular {
+    font-family: "Sawarabi Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+*{
+ overflow-x: hidden;
+ box-sizing: border-box;
+}
+body{
+    font-family: 'Sawarabi Mincho',serif;
+}
+/*to remove unexpected scroll bar*/
+body {
+    scrollbar-width: none; /* for Firefox and other Mozilla browsers */
+    -ms-overflow-style: none; /* for Internet Explorer and Edge */
+  }
+  
+  * {
+    scrollbar-width: none; /* for Chrome and Safari */
+    -webkit-scrollbar: none; /* for Chrome and Safari */
+  }
+.navbar navbar-expand-lg bg-body-tertiary{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    width: 100%;
+    max-width: 1200px;
+}
+@media(min-width:576px){
+    img{
+        max-width: 576px;
+    }
+@media (min-width: 768px){
+    img{
+        max-width: 768px;
+    }
+}
+@media (min-width: 1200px){
+    img{
+        max-width: 900px;
+        max-height: 512px;
+    }
+}
+.card-subtitle{
+     font-size: 3em;
+     gap: 0;
+}
+/* .btn{
+    background: #071a6e;
+    color: white; */
+}
+.text-body-secondary .card-text{
+    font-family: 'lato-light',sans-serif;
+}
+
+.card-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-heading p{
+    font-size: 3em; 
+}
+.container-1{
+    display: flex;   
+}
+.card{
+    border: none !important;
+}
+.profile{
+    width: 1.8em;
+    height: 1.7em;
+    cursor: pointer;
+}
+.nav-align{
+    margin-left: 10rem;
+}
+.toggler-align{
+    margin-left: 7rem;
+}
+footer{
+    background: black;
+    margin-top: 4rem;
+    color: white;
+}
+p{
+    font-weight: bold;
+}
+/* .about{
+    margin-top: 5rem;
+} */
+.input-box{
+    width: 40vw;
+    background: black;
+    outline: 3px white; 
+    color: white; 
+    border-radius: 5px;
+}
